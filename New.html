@@ -10,10 +10,212 @@
 </head>
 
 <body>
-  <h1>Hello World!</h1>
-  <script>
-    
+  <header>
+    <img class="logo" src="../Images/tinywow_change_bg_photo_44053513.png" alt="thevintageplug logo">
+      <nav>
+          <ul class="nav_links">
+            <li> <a href="#store">About store</a></li>
+            <li> <a href="#review">Review</a></li>
+            <li> <a href="#shop">Shop now</a></li>
+            <li> <a href="#review">Review</a></li>
+            <li><a href="#top">FAQ</a></li>
+          </ul>
+      </nav>
+      <a href="#" class="cta"> <button>Contact us</button></a>
+  </header>
 
-  </script>
+  <main>
+
+    <form class="form1" action="" method="post">
+      <div class="main_div">
+            <h1>Sign in with your credentials</h1>
+
+          <div class="empaphone">
+              <label for="email"><strong>Email address</strong></label>
+              <input type="email" name="login-mail" 
+              id="email" placeholder="iamdusnorf@king.com">
+          </div>
+
+          <div class="empaphone">
+              <label for="password"> <strong>Password</strong></label>
+              <input type="password" name="input-password" 
+              id="password" placeholder="************">
+          </div>
+
+          <div class="empaphone">
+              <label for="number"><strong>Phone number</strong></label>
+              <input type="tel" name="input-number" 
+              id="mobile">
+          </div>
+
+          <div class="remember_me">
+            <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p><strong>Remember me</strong></p>
+          </div>
+
+
+          <div>
+            <button class="sign_btn">Sign in</button>
+          </div>
+
+
+      </div>
+    </form>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+  
+    <form class="form2" action="" method="post">
+      <div class="second_div">
+        <h1 id="shop">Shop now</h1>
+    
+        <div class="add_app">
+          <div>
+            <label for="address">Address</label>
+            <input type="text" name="address_details" id="address">
+          </div>
+    
+    
+          <div>
+            <label for="apartment number">Apartment number</label>
+            <input type="tel" name="apt_num" id="apartment number">
+          </div>
+    
+    
+        </div>
+    
+    
+        <div class="order_state">
+          <div>
+            <label for="order_state">State</label>
+            <select name="order_state" id="order_state">
+              <option value="Lagos">Lagos</option>
+              <option value="Ogun">Ogun</option>
+              <option value="Oyo">Oyo</option>
+              <option value="Port-Hacourt">Port-Hacourt</option>
+              <option value="Nasarawwa">Nasarawwa</option>
+              <option value="Enugu">Enugu</option>
+              <option value="Abuja">Abuja</option>
+    
+            </select>
+          </div>
+    
+    
+          <div>
+            <label for="order_city">City</label>
+            <input type="text" name="CITY" id="order_city">
+          </div>
+    
+    
+          <div>
+            <label for="order_zip">Zip</label>
+            <input type="tel" name="ZIP" id="order_zip">
+          </div>
+    
+        </div>
+    
+        <div class="order_color">
+          <label for="order_color">What color samples should we send you?</label>
+          <br>
+    
+          <div class="color_options">
+            <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p>Black</p>
+            <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p>Charcoal</p>
+            <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p>White</p>
+            <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p>Coral</p>
+            <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p>Burgundy</p>
+          </div>
+    
+          <!--  <div class="color_options">
+                
+                    <label for="sample-white">
+                      <input type="checkbox" name="color-sample" id="sample-white" value="white">White
+                    </label>
+                    <label for="sample-black">
+                      <input type="checkbox" name="color-sample" id="sample-black" value="black">Black
+                    </label>
+                    <label for="sample-burgundy">
+                      <input type="checkbox" name="color-sample" id="sample-burgundy" value="burgundy">Burgundy
+                    </label>
+                    <label for="sample-magenta">
+                      <input type="checkbox" name="color-sample" id="sample-magenta" value="magenta">Magenta
+                    </label>
+                    <label for="sample-coral">
+                      <input type="checkbox" name="color-sample" id="sample-coral" value="coral">Coral
+                    </label>
+                    <label for="sample-charcoal">
+                      <input type="checkbox" name="color-sample" id="sample-charcoal" value="charcoal">Charcoal
+                    </label>
+                  </div>
+                </div> -->
+    
+        </div>
+    
+        <div class="team_size">
+          <label for="team_size">How large is your team</label>
+    
+          <label for="less_than_5">
+            <input type="radio" name="team_size" id="less_than_5">1-5 people
+          </label>
+    
+          <label for="less_than_10">
+            <input type="radio" name="team_size" id="less_than_10">6-10 people
+          </label>
+    
+          <label for="more_than_10">
+            <input type="radio" name="team_size" id="more_than_10">10+ people
+          </label>
+    
+    
+        </div>
+    
+        <div class="order_comm">
+          <label for="order_comments">
+    
+            Comments</label>
+          <textarea name="order-comments" id="order-comments" cols="120" rows="10"></textarea>
+        </div>
+    
+        <div class="special">
+          <img src="../Images/check_box_FILL0_wght400_GRAD0_opsz24.svg" alt="checkbox">
+          <p><strong>Sign up for special offers</strong></p>
+          <!--   <label for="special_offers">
+              <input type="checkbox" name="offers" id="special_offers">Sign up for special offers
+            </label> -->
+        </div>
+    
+        <div>
+          <button class="special_button">Order now</button>
+        </div>
+
+      </form>
+  </main>
 </body>
+
+<footer>
+  <img src="../Images/4196777.png" alt="">
+<a href="#top">Lonely at the top</a>
+<img src="../Images/4196777.png" alt="top">
+</footer>
 </html>
+
+
+  
